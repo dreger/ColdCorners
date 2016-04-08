@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0028C07B1CB810E30047F664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028C07A1CB810E30047F664 /* AppDelegate.swift */; };
+		0028C07D1CB810E30047F664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0028C07C1CB810E30047F664 /* Assets.xcassets */; };
+		0028C0801CB810E30047F664 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0028C07E1CB810E30047F664 /* MainMenu.xib */; };
+		0028C08B1CB810E30047F664 /* ColdCornersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028C08A1CB810E30047F664 /* ColdCornersTests.swift */; };
+		0028C0961CB810E30047F664 /* ColdCornersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028C0951CB810E30047F664 /* ColdCornersUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0028C0871CB810E30047F664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0028C06F1CB810E30047F664 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0028C0761CB810E30047F664;
+			remoteInfo = ColdCorners;
+		};
+		0028C0921CB810E30047F664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0028C06F1CB810E30047F664 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0028C0761CB810E30047F664;
+			remoteInfo = ColdCorners;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0028C0771CB810E30047F664 /* ColdCorners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColdCorners.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0028C07A1CB810E30047F664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0028C07C1CB810E30047F664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0028C07F1CB810E30047F664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0028C0811CB810E30047F664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0028C0861CB810E30047F664 /* ColdCornersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColdCornersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0028C08A1CB810E30047F664 /* ColdCornersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdCornersTests.swift; sourceTree = "<group>"; };
+		0028C08C1CB810E30047F664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0028C0911CB810E30047F664 /* ColdCornersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColdCornersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0028C0951CB810E30047F664 /* ColdCornersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdCornersUITests.swift; sourceTree = "<group>"; };
+		0028C0971CB810E30047F664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0028C0741CB810E30047F664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0028C0831CB810E30047F664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0028C08E1CB810E30047F664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0028C06E1CB810E30047F664 = {
+			isa = PBXGroup;
+			children = (
+				0028C0791CB810E30047F664 /* ColdCorners */,
+				0028C0891CB810E30047F664 /* ColdCornersTests */,
+				0028C0941CB810E30047F664 /* ColdCornersUITests */,
+				0028C0781CB810E30047F664 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0028C0781CB810E30047F664 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0028C0771CB810E30047F664 /* ColdCorners.app */,
+				0028C0861CB810E30047F664 /* ColdCornersTests.xctest */,
+				0028C0911CB810E30047F664 /* ColdCornersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0028C0791CB810E30047F664 /* ColdCorners */ = {
+			isa = PBXGroup;
+			children = (
+				0028C07A1CB810E30047F664 /* AppDelegate.swift */,
+				0028C07C1CB810E30047F664 /* Assets.xcassets */,
+				0028C07E1CB810E30047F664 /* MainMenu.xib */,
+				0028C0811CB810E30047F664 /* Info.plist */,
+			);
+			path = ColdCorners;
+			sourceTree = "<group>";
+		};
+		0028C0891CB810E30047F664 /* ColdCornersTests */ = {
+			isa = PBXGroup;
+			children = (
+				0028C08A1CB810E30047F664 /* ColdCornersTests.swift */,
+				0028C08C1CB810E30047F664 /* Info.plist */,
+			);
+			path = ColdCornersTests;
+			sourceTree = "<group>";
+		};
+		0028C0941CB810E30047F664 /* ColdCornersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0028C0951CB810E30047F664 /* ColdCornersUITests.swift */,
+				0028C0971CB810E30047F664 /* Info.plist */,
+			);
+			path = ColdCornersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0028C0761CB810E30047F664 /* ColdCorners */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0028C09A1CB810E30047F664 /* Build configuration list for PBXNativeTarget "ColdCorners" */;
+			buildPhases = (
+				0028C0731CB810E30047F664 /* Sources */,
+				0028C0741CB810E30047F664 /* Frameworks */,
+				0028C0751CB810E30047F664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColdCorners;
+			productName = ColdCorners;
+			productReference = 0028C0771CB810E30047F664 /* ColdCorners.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0028C0851CB810E30047F664 /* ColdCornersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0028C09D1CB810E30047F664 /* Build configuration list for PBXNativeTarget "ColdCornersTests" */;
+			buildPhases = (
+				0028C0821CB810E30047F664 /* Sources */,
+				0028C0831CB810E30047F664 /* Frameworks */,
+				0028C0841CB810E30047F664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0028C0881CB810E30047F664 /* PBXTargetDependency */,
+			);
+			name = ColdCornersTests;
+			productName = ColdCornersTests;
+			productReference = 0028C0861CB810E30047F664 /* ColdCornersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0028C0901CB810E30047F664 /* ColdCornersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0028C0A01CB810E30047F664 /* Build configuration list for PBXNativeTarget "ColdCornersUITests" */;
+			buildPhases = (
+				0028C08D1CB810E30047F664 /* Sources */,
+				0028C08E1CB810E30047F664 /* Frameworks */,
+				0028C08F1CB810E30047F664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0028C0931CB810E30047F664 /* PBXTargetDependency */,
+			);
+			name = ColdCornersUITests;
+			productName = ColdCornersUITests;
+			productReference = 0028C0911CB810E30047F664 /* ColdCornersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0028C06F1CB810E30047F664 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kyle Dreger";
+				TargetAttributes = {
+					0028C0761CB810E30047F664 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					0028C0851CB810E30047F664 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 0028C0761CB810E30047F664;
+					};
+					0028C0901CB810E30047F664 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 0028C0761CB810E30047F664;
+					};
+				};
+			};
+			buildConfigurationList = 0028C0721CB810E30047F664 /* Build configuration list for PBXProject "ColdCorners" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0028C06E1CB810E30047F664;
+			productRefGroup = 0028C0781CB810E30047F664 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0028C0761CB810E30047F664 /* ColdCorners */,
+				0028C0851CB810E30047F664 /* ColdCornersTests */,
+				0028C0901CB810E30047F664 /* ColdCornersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0028C0751CB810E30047F664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0028C07D1CB810E30047F664 /* Assets.xcassets in Resources */,
+				0028C0801CB810E30047F664 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0028C0841CB810E30047F664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0028C08F1CB810E30047F664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0028C0731CB810E30047F664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0028C07B1CB810E30047F664 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0028C0821CB810E30047F664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0028C08B1CB810E30047F664 /* ColdCornersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0028C08D1CB810E30047F664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0028C0961CB810E30047F664 /* ColdCornersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0028C0881CB810E30047F664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0028C0761CB810E30047F664 /* ColdCorners */;
+			targetProxy = 0028C0871CB810E30047F664 /* PBXContainerItemProxy */;
+		};
+		0028C0931CB810E30047F664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0028C0761CB810E30047F664 /* ColdCorners */;
+			targetProxy = 0028C0921CB810E30047F664 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0028C07E1CB810E30047F664 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0028C07F1CB810E30047F664 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0028C0981CB810E30047F664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0028C0991CB810E30047F664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0028C09B1CB810E30047F664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ColdCorners/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyledreger.ColdCorners;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0028C09C1CB810E30047F664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ColdCorners/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyledreger.ColdCorners;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0028C09E1CB810E30047F664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ColdCornersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyledreger.ColdCornersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColdCorners.app/Contents/MacOS/ColdCorners";
+			};
+			name = Debug;
+		};
+		0028C09F1CB810E30047F664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ColdCornersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyledreger.ColdCornersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColdCorners.app/Contents/MacOS/ColdCorners";
+			};
+			name = Release;
+		};
+		0028C0A11CB810E30047F664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ColdCornersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyledreger.ColdCornersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ColdCorners;
+			};
+			name = Debug;
+		};
+		0028C0A21CB810E30047F664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ColdCornersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyledreger.ColdCornersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ColdCorners;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0028C0721CB810E30047F664 /* Build configuration list for PBXProject "ColdCorners" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0028C0981CB810E30047F664 /* Debug */,
+				0028C0991CB810E30047F664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0028C09A1CB810E30047F664 /* Build configuration list for PBXNativeTarget "ColdCorners" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0028C09B1CB810E30047F664 /* Debug */,
+				0028C09C1CB810E30047F664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0028C09D1CB810E30047F664 /* Build configuration list for PBXNativeTarget "ColdCornersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0028C09E1CB810E30047F664 /* Debug */,
+				0028C09F1CB810E30047F664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0028C0A01CB810E30047F664 /* Build configuration list for PBXNativeTarget "ColdCornersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0028C0A11CB810E30047F664 /* Debug */,
+				0028C0A21CB810E30047F664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0028C06F1CB810E30047F664 /* Project object */;
+}
